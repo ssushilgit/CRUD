@@ -42,7 +42,7 @@ const Create = () => {
     };
 
     return (
-        <div className='d-flex mt-5 w-100 vh-100 justify-content-center align-items-center '>
+        <div className='d-flex pt-3 mt-5 w-100 vh-100 justify-content-center align-items-center '>
             <div className="border bg-white shadow px-5 pt-3 pb-5 rounded">
                 <h1>Add a User</h1>
                 <form onSubmit={handleSubmit}>
@@ -86,13 +86,13 @@ const Create = () => {
                         <select name='province' className='form-control'
                             onChange={e => setValues({ ...values, province: e.target.value })}>
                             <option value="">Select Province</option>
-                            <option value="Province 1">Koshi Province</option>
-                            <option value="Province 2">Madhesh Province</option>
-                            <option value="Province 3">Bagmati Province</option>
-                            <option value="Province 4">Gandaki Province</option>
-                            <option value="Province 5">Lumbini Province</option>
-                            <option value="Province 6">Karnali Province</option>
-                            <option value="Province 7">Sudurpashchim Province</option>
+                            <option value="Koshi Province">Koshi Province</option>
+                            <option value="Madhesh Province">Madhesh Province</option>
+                            <option value="Bagmati Province">Bagmati Province</option>
+                            <option value="Gandaki Province">Gandaki Province</option>
+                            <option value="Lumbini Province">Lumbini Province</option>
+                            <option value="Karnali Province">Karnali Province</option>
+                            <option value="Sudurpashchim Province">Sudurpashchim Province</option>
                         </select>
                     </div>
                     <div className="mb-2">
