@@ -1,5 +1,5 @@
 import axios from 'axios';
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Link, useNavigate } from 'react-router-dom';
 
 
@@ -16,8 +16,17 @@ const Create = () => {
         province: '',
         country: 'Nepal' // default to Nepal
     })
-
+    const [countries, setCountries] = useState([]);
     const navigate = useNavigate();
+
+    useEffect(() => {
+        // Fetch country list
+        axios.get('https://restcountries.com/v3.1/all')
+          .then(res => {
+            setCountries(res.data.map(country => country.name.common));
+          })
+          .catch(err => console.log(err));
+      }, []);
 
     const handleSubmit = (event) => {
         event.preventDefault();
@@ -25,7 +34,6 @@ const Create = () => {
             .then(res => {
                 console.log(res);
                 navigate('/');
-
             })
             .catch(err => console.log(err));
     }
@@ -89,12 +97,13 @@ const Create = () => {
                     </div>
                     <div className="mb-2">
                         <label htmlFor="country">Country:</label>
-                        {/* <select name='country' className='form-control' value={values.country} 
-                onChange={e => setValues({ ...values, country: e.target.value })}>
-                  {countries.map((country, index) => (
-                    <option key={index} value={country}>{country}</option>
-                  ))}
-                </select> */}
+                        <select name='country' className='form-control' 
+                        value={values.country}
+                            onChange={e => setValues({ ...values, country: e.target.value })}>
+                            {countries.map((country, index) => (
+                                <option key={index} value={country}>{country}</option>
+                            ))}
+                        </select>
                     </div>
 
                     <div className="mb-2">
