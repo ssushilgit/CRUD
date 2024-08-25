@@ -1,0 +1,41 @@
+{
+  "users": [
+    {
+      "name": "Nirjala Pandey",
+      "username": "nirjala",
+      "email": "nirjala.pandey@yahoo.com",
+      "phone": "+977 9845678901",
+      "dob": "1990-01-01",
+      "city": "Kathmandu",
+      "district": "Kathmandu",
+      "province": "3",
+      "country": "Nepal",
+      "profilePicture": "nirjala.png"
+    },
+    {
+      "name": "Nirjala Pandey",
+      "username": "nirjala",
+      "email": "nirjala.pandey@yahoo.com",
+      "phone": "+977 9845678901",
+      "dob": "1990-01-01",
+      "city": "Kathmandu",
+      "district": "Kathmandu",
+      "province": "3",
+      "country": "Nepal",
+      "profilePicture": "nirjala.png"
+    },
+    {
+      "id": "ef7b",
+      "profilePicture": "",
+      "name": "Sugam Shrestha",
+      "username": "sugam",
+      "email": "sugamsth11@gmail.com",
+      "phone": "9826133030",
+      "dob": "2024-08-08",
+      "city": "Damauli",
+      "district": "Tanahun",
+      "province": "4",
+      "country": "Nepal"
+    }
+  ]
+}
