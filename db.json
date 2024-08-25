@@ -1,40 +1,29 @@
 {
   "users": [
     {
-      "name": "Nirjala Pandey",
-      "username": "nirjala",
-      "email": "nirjala.pandey@yahoo.com",
-      "phone": "+977 9845678901",
-      "dob": "1990-01-01",
-      "city": "Kathmandu",
-      "district": "Kathmandu",
-      "province": "3",
-      "country": "Nepal",
-      "profilePicture": "nirjala.png"
-    },
-    {
-      "name": "Nirjala Pandey",
-      "username": "nirjala",
-      "email": "nirjala.pandey@yahoo.com",
-      "phone": "+977 9845678901",
-      "dob": "1990-01-01",
-      "city": "Kathmandu",
-      "district": "Kathmandu",
-      "province": "3",
-      "country": "Nepal",
-      "profilePicture": "nirjala.png"
-    },
-    {
-      "id": "ef7b",
+      "id": "90b6",
       "profilePicture": "",
       "name": "Sugam Shrestha",
-      "username": "sugam",
+      "username": "ssushil",
       "email": "sugamsth11@gmail.com",
-      "phone": "9826133030",
+      "phone": "9826121012",
       "dob": "2024-08-08",
       "city": "Damauli",
       "district": "Tanahun",
-      "province": "4",
+      "province": "Province 5",
+      "country": "Nepal"
+    },
+    {
+      "id": "fbed",
+      "profilePicture": "",
+      "name": "Sushil Shrestha II",
+      "username": "_ssushil",
+      "email": "shresthasushil741@gmail.com",
+      "phone": "9826121012",
+      "dob": "2024-08-14",
+      "city": "Damauli",
+      "district": "Tanahun",
+      "province": "Province 6",
       "country": "Nepal"
     }
   ]
