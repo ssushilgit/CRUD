@@ -65,16 +65,7 @@ const Home = () => {
             {currentItems.map((d, i) => (
               <tr key={i}>
                 <td>
-                  {/* {d.profilePicture ? (
-                    <img
-                      src={`/path/to/profile-pictures/${d.profilePicture}`}
-                      alt={`${d.name}'s Profile`}
-                      width="50"
-                      height="50"
-                    />
-                  ) : (
-                    'No Image'
-                  )} */}
+             
                 </td>
                 <td>{firstItem + i + 1}</td>
                 <td>{d.name}</td>
